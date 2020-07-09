@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    background-image: url('https://casinoble.it/wp-content/uploads/sites/3/2020/01/Green-casino-table.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.board{
+    background-color: rgba(0,153,0,.8);
+    display: flex;
+    flex: 1 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.player{
+ margin: 50px;
+ font-size: 3rem;
+ display: flex;
+ flex: 1 1;
+ flex-direction: column;
+ align-items: center;
+ background-color: #00984C;
+ border-radius: 10px;
+ padding: 2rem;
+}
+.player p{
+    margin: 1rem 0;
+}
+button{
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+img{
+    height: 150px;
+}
+.play{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+#replay{
+    width: 180px;
+    margin-top: 2rem;
+}
+#roll{
+   
+    transition: all .2s;
+    width: 180px;
+    margin-bottom: 2rem;
+}
+#roll:hover{
+    transform: scale(1.1);
+}
+#roll:active{
+    transform: scale(1);
+}
+p{
+    color: #fff;
+}
+button{
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007E6A;
+}

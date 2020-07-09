@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Dice Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="board">
+        <div class="player">
+          <p class="player-name">Giocatore</p>
+          <img id="dice-1" src="img/dice-1.png" alt="">
+          <p class="risultato1" id="score-0">0</p>
+         
+        </div>
+        <div class="play">
+          <button id="roll">Gira Il dado</button>
+          <p id="risultato">Comicia</p>
+          <button id="replay">Replay</button>
+        </div>
+        <div class="player">
+          <p class="player-name">Computer</p>
+          <img id="dice-2" src="img/dice-1.png" alt="">
+          <p class="risultato2" id="score-1">0</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
