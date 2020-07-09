@@ -10,11 +10,12 @@ body{
     background-position: center;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
+    display: flex;
 
 }
 .container{
     margin: 0 auto;
-    width: 50%;
+    flex: 0 1 50%;
     height: 100vh;
     display: flex;
     align-items: center;
