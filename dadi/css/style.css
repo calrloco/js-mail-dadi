@@ -10,10 +10,13 @@ body{
     background-position: center;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
-    display: flex;
+    
 
 }
 .container{
+    display: flex;
+}
+.board-container{
     margin: 0 auto;
     flex: 0 1 50%;
     height: 100vh;
